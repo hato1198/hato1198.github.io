@@ -1,4 +1,5 @@
 url: "https://hato1198.github.io"
+baseurl: "/mouse-cursor-checker"
 
 plugins:
   - jekyll-sitemap
