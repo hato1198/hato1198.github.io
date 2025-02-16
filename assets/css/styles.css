@@ -91,6 +91,7 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
+  font-weight: 200;
 }
 .read-more:focus {
   outline: none;
