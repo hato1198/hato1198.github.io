@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
       details.style.opacity = 1;
       profile.classList.add('expanded');
       // read less時は矢印が上向きになる（パス：M4 10L8 6L12 10）
-      readMoreBtn.innerHTML = '<span>隠す</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 10L8 6L12 10" stroke="#007BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      readMoreBtn.innerHTML = '<span>隠す</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 10L8 6L12 10" stroke="#007BFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/></svg>';
       
       // トランジション終了後、高さをautoに戻す
       details.addEventListener('transitionend', function handler(e) {
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
       details.style.opacity = 0;
       profile.classList.remove('expanded');
       // read more時は下向きの矢印（パス：M4 6L8 10L12 6）
-      readMoreBtn.innerHTML = '<span>さらに表示</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6L8 10L12 6" stroke="#007BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      readMoreBtn.innerHTML = '<span>さらに表示</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6L8 10L12 6" stroke="#007BFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/></svg>';
     }
   });
 });
