@@ -273,16 +273,8 @@ body {
 
 /* レスポンシブ */
 @media (max-width: 600px) {
-  .profile p {
-    margin: 0;
-    font-size: 0.9em;
-  }
-  .profile h1 {
-    font-size: 1.7em;
-  }
-  .profile h2 {
-    font-size: 1em;
-    margin: 12px 0 5px;
+  .search-container {
+    display: none;
   }
   .site-card h2 {
     font-size: 1.2em;
