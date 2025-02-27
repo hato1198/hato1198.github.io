@@ -1,3 +1,14 @@
 title: Tooliverse
 description: "無料で簡単に使えるWebツール"
 url: "https://hato1198.github.io"
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - google7aa94270c7800c73.html
+
+sitemap:
+  hostname: "https://hato1198.github.io"
+
+timezone: "Asia/Tokyo"
