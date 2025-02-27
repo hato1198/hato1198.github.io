@@ -12,3 +12,7 @@ sitemap:
   hostname: "https://hato1198.github.io"
 
 timezone: "Asia/Tokyo"
+
+markdown: kramdown
+
+permalink: pretty
